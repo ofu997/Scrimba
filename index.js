@@ -1,5 +1,5 @@
 fetch('people.json')
-	.then( response => {throw 3.14159} )
+	 response => {throw 3.14159} )
 	.then( json => 
 		json.forEach((person) => {
             const div = document.createElement("div");
